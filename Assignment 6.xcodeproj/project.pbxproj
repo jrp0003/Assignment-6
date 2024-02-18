@@ -16,6 +16,8 @@
 		EB5FEEBA2B8028C0002651BB /* Assignment_6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FEEB92B8028C0002651BB /* Assignment_6Tests.swift */; };
 		EB5FEEC42B8028C0002651BB /* Assignment_6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FEEC32B8028C0002651BB /* Assignment_6UITests.swift */; };
 		EB5FEEC62B8028C0002651BB /* Assignment_6UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FEEC52B8028C0002651BB /* Assignment_6UITestsLaunchTests.swift */; };
+		EB5FEED42B804655002651BB /* ConverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FEED32B804655002651BB /* ConverterLogic.swift */; };
+		EB5FEED72B804F45002651BB /* ConversionAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5FEED62B804F45002651BB /* ConversionAmountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EB5FEEBF2B8028C0002651BB /* Assignment 6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment 6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB5FEEC32B8028C0002651BB /* Assignment_6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_6UITests.swift; sourceTree = "<group>"; };
 		EB5FEEC52B8028C0002651BB /* Assignment_6UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_6UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB5FEED32B804655002651BB /* ConverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterLogic.swift; sourceTree = "<group>"; };
+		EB5FEED62B804F45002651BB /* ConversionAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionAmountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,8 @@
 			children = (
 				EB5FEEA22B8028BD002651BB /* AppDelegate.swift */,
 				EB5FEEA42B8028BD002651BB /* SceneDelegate.swift */,
-				EB5FEEA62B8028BD002651BB /* ViewController.swift */,
+				EB5FEED52B804678002651BB /* Model */,
+				EB5FEED22B80462F002651BB /* View */,
 				EB5FEEA82B8028BD002651BB /* Main.storyboard */,
 				EB5FEEAB2B8028C0002651BB /* Assets.xcassets */,
 				EB5FEEAD2B8028C0002651BB /* LaunchScreen.storyboard */,
@@ -125,6 +130,23 @@
 				EB5FEEC52B8028C0002651BB /* Assignment_6UITestsLaunchTests.swift */,
 			);
 			path = "Assignment 6UITests";
+			sourceTree = "<group>";
+		};
+		EB5FEED22B80462F002651BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB5FEEA62B8028BD002651BB /* ViewController.swift */,
+				EB5FEED62B804F45002651BB /* ConversionAmountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB5FEED52B804678002651BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB5FEED32B804655002651BB /* ConverterLogic.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB5FEEA72B8028BD002651BB /* ViewController.swift in Sources */,
+				EB5FEED72B804F45002651BB /* ConversionAmountView.swift in Sources */,
+				EB5FEED42B804655002651BB /* ConverterLogic.swift in Sources */,
 				EB5FEEA32B8028BD002651BB /* AppDelegate.swift in Sources */,
 				EB5FEEA52B8028BD002651BB /* SceneDelegate.swift in Sources */,
 			);
